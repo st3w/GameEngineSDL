@@ -6,8 +6,8 @@ EXECUTABLE=GameEngineSDL
 
 SOURCES = main.cpp GameEngine.cpp GameStateManager.cpp MainGameState.cpp MenuGameState.cpp  
 FRAMEWORKS = -framework Cocoa -framework OpenGL -framework SDL
-LIBS = -lc++ -lc
-DEFINES = -DOSX
+LIBS = -lc -lc++
+DEFINES = 
 CPPFLAGS = -std=c++11 -stdlib=libc++ -g $(DEFINES)
 INCLUDEDIRS = 
 LIBDIRS =
